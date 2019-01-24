@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid } from 'semantic-ui-react';
+import { } from 'semantic-ui-react';
 import EventListItem from './EventListItem.jsx';
 
 class EventList extends Component {

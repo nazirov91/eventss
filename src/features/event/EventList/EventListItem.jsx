@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Item, Segment, Icon, Button, List  } from 'semantic-ui-react';
-import EventListAttandee from './EventListAttandee.jsx';
+import EventListAttendee from './EventListAttendee.jsx';
 
 class EventListItem extends Component {
   render() {
@@ -27,7 +27,7 @@ class EventListItem extends Component {
         </Segment>
         <Segment secondary>
           <List horizontal>
-            <EventListAttandee/>
+            <EventListAttendee/>
           </List>
         </Segment>
         <Segment clearing>
